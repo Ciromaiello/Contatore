@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     //CHE BEL CONTATORE
     //SISI
     private int cont = 0;
-
+//CIRO VIVE 2
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
