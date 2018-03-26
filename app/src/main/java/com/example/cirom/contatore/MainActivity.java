@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         vAzzera = findViewById(R.id.btnAzzera);
         vRaddoppio = findViewById(R.id.chkRaddoppia);
 
+        // pulsanti
         vAumenta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
