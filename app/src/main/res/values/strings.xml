@@ -2,4 +2,6 @@
     <string name="app_name">Contatore</string>
     <string name="Aumenta">Aumenta</string>
     <string name="Diminuisci">Diminuisci</string>
+    <string name="messaggio">Premi pulsante per contare</string>
+    <string name="messaggio2">il contatore vale </string>
 </resources>
