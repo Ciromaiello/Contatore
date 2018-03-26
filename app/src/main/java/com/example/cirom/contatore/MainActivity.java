@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private Button vAzzera;
     private CheckBox vRaddoppio;
     private int cont = 0;
-
+//CIRO VIVE
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
