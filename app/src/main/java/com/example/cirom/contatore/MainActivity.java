@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private Button vAzzera;
     private CheckBox vRaddoppio;
     //CHE BEL CONTATORE
+    //SISI
     private int cont = 0;
 
     @Override
