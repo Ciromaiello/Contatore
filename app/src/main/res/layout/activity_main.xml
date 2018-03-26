@@ -6,4 +6,36 @@
     android:layout_height="match_parent"
     tools:context="com.example.cirom.contatore.MainActivity">
 
+    <TextView
+        android:id="@+id/textMessaggio"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="Hai cliccato n volte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAumenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/Aumenta"
+        app:layout_constraintEnd_toStartOf="@+id/btnDiminuisci"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textMessaggio" />
+
+    <Button
+        android:id="@+id/btnDiminuisci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Diminuisci"
+        app:layout_constraintBottom_toBottomOf="@+id/btnAumenta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnAumenta" />
 </android.support.constraint.ConstraintLayout>
