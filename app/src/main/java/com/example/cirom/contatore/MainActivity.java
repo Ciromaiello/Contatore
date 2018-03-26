@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     private Button vDiminuisci;
     private Button vAzzera;
     private CheckBox vRaddoppio;
+    //CHE BEL CONTATORE
     private int cont = 0;
 //CIRO VIVE 2
     @Override
