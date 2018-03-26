@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView vMessaggio;
     private Button vAumenta;
     private Button vDiminuisci;
-    private int cont = 0;
+    private int cont = 100;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
