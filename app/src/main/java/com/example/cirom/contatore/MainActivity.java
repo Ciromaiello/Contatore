@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private CheckBox vRaddoppio;
     //CHE BEL CONTATORE
     //EEEEE
+    //OO MA A PASQUETTA CHE SI FA??????
     private int cont = 0;
 //CIRO VIVE 2
     @Override
